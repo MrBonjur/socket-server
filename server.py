@@ -394,7 +394,6 @@ while True:
         user_hwid = user_info[2]
         user_monitor = eval(user_info[3])
         user_cpu = user_info[4]
-        print(user_ip)
         if real_ip != user_ip and real_ip != "127.0.0.1":
             sender("IP changed manually")
             user_socket.close()
